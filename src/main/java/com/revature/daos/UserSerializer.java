@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import javax.swing.plaf.synth.SynthScrollBarUI;
+
 import com.revature.beans.User;
 
 public class UserSerializer implements UserDao {
@@ -71,6 +73,30 @@ public class UserSerializer implements UserDao {
 
 		} catch (FileNotFoundException e) {
 //			e.printStackTrace();
+		} catch (IOException e) {
+//			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	@Override
+	public User findUser(String username) {
+		// verify that what was passed in is not null
+		if (username == null) {
+			return null;
+		}
+		try (ObjectInputStream ois = new ObjectInputStream(
+				new FileInputStream("src/main/resources/users/" + username + ".txt"))) {
+
+		currentUser = (User) ois.readObject(); // retrieve the user if it can
+		
+		return currentUser;
+
+		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+			System.out.println(username + " does not exist");
 		} catch (IOException e) {
 //			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
