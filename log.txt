@@ -1,0 +1,30 @@
+2018-08-17 14:07:50 TRACE Launcher:11 - trace log
+2018-08-17 14:07:50 DEBUG Launcher:12 - debug log
+2018-08-17 14:07:50 INFO  Launcher:13 - info log
+2018-08-17 14:07:50 WARN  Launcher:14 - warn log
+2018-08-17 14:07:50 ERROR Launcher:15 - error log
+2018-08-17 14:07:50 FATAL Launcher:16 - fatal log
+2018-08-17 14:07:50 DEBUG LoginScreen:16 - started login screen
+2018-08-17 14:08:20 ERROR UserDaoJdbc:39 - ERROR: relation "user_account" does not exist
+  Position: 13
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:35)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:27)
+2018-08-17 14:08:20 ERROR UserDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-17 14:08:20 WARN  UserDaoJdbc:43 - failed to create new user
+2018-08-17 14:08:20 DEBUG LoginScreen:16 - started login screen
+2018-08-17 14:11:52 TRACE Launcher:11 - trace log
+2018-08-17 14:11:52 DEBUG Launcher:12 - debug log
+2018-08-17 14:11:52 INFO  Launcher:13 - info log
+2018-08-17 14:11:52 WARN  Launcher:14 - warn log
+2018-08-17 14:11:52 ERROR Launcher:15 - error log
+2018-08-17 14:11:52 FATAL Launcher:16 - fatal log
+2018-08-17 14:11:52 DEBUG LoginScreen:16 - started login screen
+2018-08-17 14:12:09 TRACE UserDaoJdbc:36 - 1 records created
+2018-08-17 14:12:09 DEBUG LoginScreen:16 - started login screen

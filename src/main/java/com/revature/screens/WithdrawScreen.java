@@ -24,16 +24,16 @@ public class WithdrawScreen implements Screen{
 
 	@Override
 	public Screen start() {
-		System.out.println("How much energy would you like to withdraw? ");
-		try {
-			double amount = scan.nextDouble();
-			u.withdrawBalance(amount);
-			u.setTransactionHistory(amount + " energy has been taken out of your balance");
-			ud.updateUser(u);
-		} catch (InputMismatchException e) {
-			System.out.println("Invalid Number");
-			return new WithdrawScreen(currentUser);
-		}
+//		System.out.println("How much energy would you like to withdraw? ");
+//		try {
+//			double amount = scan.nextDouble();
+//			u.withdrawBalance(amount);
+//			u.setTransactionHistory(amount + " energy has been taken out of your balance");
+//			ud.updateUser(u);
+//		} catch (InputMismatchException e) {
+//			System.out.println("Invalid Number");
+//			return new WithdrawScreen(currentUser);
+//		}
 		
 		return new HomeScreen(currentUser);
 	}

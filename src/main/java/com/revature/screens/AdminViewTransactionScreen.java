@@ -20,22 +20,22 @@ public class AdminViewTransactionScreen implements Screen {
 
 	@Override
 	public Screen start() {
-		System.out.println("Enter the username of an account to see their transaction history \n");
-		System.out.println("Username: ");
-		String username = scan.nextLine();
+//		System.out.println("Enter the username of an account to see their transaction history \n");
+//		System.out.println("Username: ");
+//		String username = scan.nextLine();
+//		
+//		selectedUser = ud.findUser(username);
+//		if(selectedUser != null) {
+//			transactions = selectedUser.getTransactionHistory();
+//			if(transactions.size() == 0) {
+//				System.out.println(username + " has no transaction history");
+//			}
+//			for(String history : transactions) {
+//				System.out.println(history);
+//			}
+//		}
 		
-		selectedUser = ud.findUser(username);
-		if(selectedUser != null) {
-			transactions = selectedUser.getTransactionHistory();
-			if(transactions.size() == 0) {
-				System.out.println(username + " has no transaction history");
-			}
-			for(String history : transactions) {
-				System.out.println(history);
-			}
-		}
-		
-		return this;
+		return null;
 	}
 
 }

@@ -19,15 +19,15 @@ public class DepositScreen implements Screen{
 
 	@Override
 	public Screen start() {
-		System.out.println("How much energy would you like to deposit? ");
-		try {
-			double amount = scan.nextDouble();
-			u.depositBalance(amount);
-			ud.updateUser(u);
-		} catch (InputMismatchException e) {
-			System.out.println("Invalid Number");
-			return new DepositScreen(currentUser);
-		}
+//		System.out.println("How much energy would you like to deposit? ");
+//		try {
+//			double amount = scan.nextDouble();
+//			u.depositBalance(amount);
+//			ud.updateUser(u);
+//		} catch (InputMismatchException e) {
+//			System.out.println("Invalid Number");
+//			return new DepositScreen(currentUser);
+//		}
 
 		return new HomeScreen(currentUser);
 	}

@@ -24,14 +24,14 @@ public class HomeScreen implements Screen{
 		
 		switch (input) {
 		case "1":
-			System.out.println("Your Potential Energy Balance is: " + currentUser.getBalance() + "\n");
+//			System.out.println("Your Potential Energy Balance is: " + currentUser.getBalance() + "\n");
 			break;
 		case "2":
 			return new DepositScreen(currentUser);
 		case "3":
 			return new WithdrawScreen(currentUser);
 		case "4":
-			System.out.println("Your transaction history: \n" + currentUser.getTransactionHistory());
+//			System.out.println("Your transaction history: \n" + currentUser.getTransactionHistory());
 			break;
 		default:
 			break;
