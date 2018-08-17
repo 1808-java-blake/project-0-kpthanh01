@@ -2,6 +2,7 @@ package com.revature.daos;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
@@ -26,12 +27,13 @@ public class UserDaoJdbc implements UserDao {
 	public void createUser(User u) {
 		try (Connection conn = cu.getConnection()){
 			PreparedStatement ps = conn.prepareStatement(
-					"INSERT INTO user_account (username, password, age, firstname, lastname) VALUES (?,?,?,?,?)");
+					"INSERT INTO user_account (username, password, age, firstname, lastname, balance) VALUES (?,?,?,?,?,?)");
 			ps.setString(1, u.getUsername());
 			ps.setString(2, u.getPassword());
 			ps.setInt(3, u.getAge());
 			ps.setString(4, u.getFirstName());
 			ps.setString(5, u.getLastName());
+			ps.setDouble(6, u.getBalance());
 			int recordsCreated = ps.executeUpdate();
 			log.trace(recordsCreated + " records created");
 		} catch (SQLException e) {
@@ -46,7 +48,28 @@ public class UserDaoJdbc implements UserDao {
 
 	@Override
 	public User findByUsernameAndPassword(String username, String password) {
-		// TODO Auto-generated method stub
+		try (Connection conn = cu.getConnection()){
+			PreparedStatement ps = conn.prepareStatement(
+					"SELECT * FROM user_account WHERE username=? AND password=?");
+			ps.setString(1, username);
+			ps.setString(2, password);
+			ResultSet rs = ps.executeQuery();
+			
+			if(rs.next()) {
+				User u = new User();
+				u.setAge(rs.getInt("age"));
+				u.setFirstName(rs.getString("firstname"));
+				u.setFirstName(rs.getString("lastname"));
+				u.setId(rs.getInt("user_id"));
+				return u;
+			} else {
+				log.warn("failed to find user with provided credentials from the db");
+				return null;
+			}
+		} catch (SQLException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
 		return null;
 	}
 

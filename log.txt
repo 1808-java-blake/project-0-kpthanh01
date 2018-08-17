@@ -28,3 +28,36 @@
 2018-08-17 14:11:52 DEBUG LoginScreen:16 - started login screen
 2018-08-17 14:12:09 TRACE UserDaoJdbc:36 - 1 records created
 2018-08-17 14:12:09 DEBUG LoginScreen:16 - started login screen
+2018-08-17 15:31:53 TRACE Launcher:11 - trace log
+2018-08-17 15:31:53 DEBUG Launcher:12 - debug log
+2018-08-17 15:31:53 INFO  Launcher:13 - info log
+2018-08-17 15:31:53 WARN  Launcher:14 - warn log
+2018-08-17 15:31:53 ERROR Launcher:15 - error log
+2018-08-17 15:31:53 FATAL Launcher:16 - fatal log
+2018-08-17 15:31:53 DEBUG LoginScreen:16 - started login screen
+2018-08-17 15:32:20 TRACE Launcher:11 - trace log
+2018-08-17 15:32:20 DEBUG Launcher:12 - debug log
+2018-08-17 15:32:20 INFO  Launcher:13 - info log
+2018-08-17 15:32:20 WARN  Launcher:14 - warn log
+2018-08-17 15:32:20 ERROR Launcher:15 - error log
+2018-08-17 15:32:20 FATAL Launcher:16 - fatal log
+2018-08-17 15:32:20 DEBUG LoginScreen:16 - started login screen
+2018-08-17 15:32:26 WARN  UserDaoJdbc:65 - failed to find user with provided credentials from the db
+2018-08-17 15:54:22 TRACE Launcher:11 - trace log
+2018-08-17 15:54:22 DEBUG Launcher:12 - debug log
+2018-08-17 15:54:22 INFO  Launcher:13 - info log
+2018-08-17 15:54:22 WARN  Launcher:14 - warn log
+2018-08-17 15:54:22 ERROR Launcher:15 - error log
+2018-08-17 15:54:22 FATAL Launcher:16 - fatal log
+2018-08-17 15:54:22 DEBUG LoginScreen:18 - started login screen
+2018-08-17 15:54:56 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-17 15:54:56 DEBUG LoginScreen:18 - started login screen
+2018-08-17 15:56:21 TRACE Launcher:11 - trace log
+2018-08-17 15:56:21 DEBUG Launcher:12 - debug log
+2018-08-17 15:56:21 INFO  Launcher:13 - info log
+2018-08-17 15:56:21 WARN  Launcher:14 - warn log
+2018-08-17 15:56:21 ERROR Launcher:15 - error log
+2018-08-17 15:56:21 FATAL Launcher:16 - fatal log
+2018-08-17 15:56:21 DEBUG LoginScreen:18 - started login screen
+2018-08-17 15:56:42 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-17 15:56:42 DEBUG LoginScreen:18 - started login screen

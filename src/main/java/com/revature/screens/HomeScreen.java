@@ -4,15 +4,12 @@ import java.util.Scanner;
 
 import com.revature.beans.User;
 import com.revature.daos.UserDao;
+import com.revature.util.AppState;
 
 public class HomeScreen implements Screen{
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
-	private User currentUser;
-	
-	public HomeScreen(User currentUser) {
-		this.currentUser = currentUser;
-	}
+	private AppState state = AppState.state;
 
 	public Screen start() {
 		System.out.println("Please choose the following options");
@@ -27,9 +24,11 @@ public class HomeScreen implements Screen{
 //			System.out.println("Your Potential Energy Balance is: " + currentUser.getBalance() + "\n");
 			break;
 		case "2":
-			return new DepositScreen(currentUser);
+//			return new DepositScreen(currentUser);
+			break;
 		case "3":
-			return new WithdrawScreen(currentUser);
+//			return new WithdrawScreen(currentUser);
+			break;
 		case "4":
 //			System.out.println("Your transaction history: \n" + currentUser.getTransactionHistory());
 			break;

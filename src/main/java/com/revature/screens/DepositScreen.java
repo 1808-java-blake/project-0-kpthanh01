@@ -29,7 +29,8 @@ public class DepositScreen implements Screen{
 //			return new DepositScreen(currentUser);
 //		}
 
-		return new HomeScreen(currentUser);
+//		return new HomeScreen(currentUser);
+		return null;
 	}
 
 }

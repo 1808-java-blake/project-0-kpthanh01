@@ -21,8 +21,10 @@ public class RegisterUserScreen implements Screen{
 		u.setLastName(scan.nextLine());
 		System.out.println("Enter age");
 		String age = scan.nextLine();
+		double balance = 0;
 		
 		try {
+			u.setBalance(balance);
 			u.setAge(Integer.valueOf(age));
 			ud.createUser(u);
 			

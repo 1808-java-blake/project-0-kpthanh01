@@ -35,7 +35,8 @@ public class WithdrawScreen implements Screen{
 //			return new WithdrawScreen(currentUser);
 //		}
 		
-		return new HomeScreen(currentUser);
+//		return new HomeScreen(currentUser);
+		return null;
 	}
 	
 	
