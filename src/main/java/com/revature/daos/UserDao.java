@@ -8,6 +8,6 @@ public interface UserDao {
 	void createUser(User u);
 	User findByUsernameAndPassword(String username, String password);
 	User findAdminByUsernameAndPassword(String username, String password);
-	void updateUser(User u);
+	void updateUserBalance(double balance, String username);
 	void deleteUser(User u);
 }

@@ -11,8 +11,9 @@ public class HomeScreen implements Screen{
 	private UserDao ud = UserDao.currentUserDao;
 	private AppState state = AppState.state;
 	private User u = state.getCurrentUser();
+	
 	public Screen start() {
-		System.out.println(u.getFirstName());
+		System.out.println(u.getBalance());
 		System.out.println("Please choose the following options");
 		System.out.println("Enter 1 to View Balance");
 		System.out.println("Enter 2 to Deposit Energy");
@@ -26,11 +27,9 @@ public class HomeScreen implements Screen{
 //			System.out.println("Your Potential Energy Balance is: " + currentUser.getBalance() + "\n");
 			break;
 		case "2":
-//			return new DepositScreen(currentUser);
-			break;
+			return new DepositScreen();
 		case "3":
-//			return new WithdrawScreen(currentUser);
-			break;
+			return new WithdrawScreen();
 		case "4":
 //			System.out.println("Your transaction history: \n" + currentUser.getTransactionHistory());
 			break;

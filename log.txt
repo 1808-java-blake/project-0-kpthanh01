@@ -181,3 +181,405 @@
 2018-08-17 20:46:10 ERROR Launcher:15 - error log
 2018-08-17 20:46:10 FATAL Launcher:16 - fatal log
 2018-08-17 20:46:10 DEBUG LoginScreen:24 - started login screen
+2018-08-17 21:17:18 TRACE Launcher:11 - trace log
+2018-08-17 21:17:18 DEBUG Launcher:12 - debug log
+2018-08-17 21:17:18 INFO  Launcher:13 - info log
+2018-08-17 21:17:18 WARN  Launcher:14 - warn log
+2018-08-17 21:17:18 ERROR Launcher:15 - error log
+2018-08-17 21:17:18 FATAL Launcher:16 - fatal log
+2018-08-17 21:17:18 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:17:22 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:17:31 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 21:17:31 INFO  LoginScreen:37 - welcomeUser [id=1, username=null, password=null, firstName=kevin, lastName=pham, age=23, balance=0.0]
+2018-08-17 21:45:49 TRACE Launcher:11 - trace log
+2018-08-17 21:45:49 DEBUG Launcher:12 - debug log
+2018-08-17 21:45:49 INFO  Launcher:13 - info log
+2018-08-17 21:45:49 WARN  Launcher:14 - warn log
+2018-08-17 21:45:49 ERROR Launcher:15 - error log
+2018-08-17 21:45:49 FATAL Launcher:16 - fatal log
+2018-08-17 21:45:49 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:46:03 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 21:46:03 INFO  LoginScreen:37 - welcomeUser [id=1, username=null, password=null, firstName=kevin, lastName=pham, age=23, balance=0.0]
+2018-08-17 21:47:41 TRACE Launcher:11 - trace log
+2018-08-17 21:47:41 DEBUG Launcher:12 - debug log
+2018-08-17 21:47:41 INFO  Launcher:13 - info log
+2018-08-17 21:47:41 WARN  Launcher:14 - warn log
+2018-08-17 21:47:41 ERROR Launcher:15 - error log
+2018-08-17 21:47:41 FATAL Launcher:16 - fatal log
+2018-08-17 21:47:41 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:47:47 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:47:54 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 21:47:54 INFO  LoginScreen:37 - welcomeUser [id=1, username=null, password=null, firstName=kevin, lastName=pham, age=23, balance=0.0]
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:36 - ERROR: value too long for type character varying(20)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:27)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - com.revature.screens.DepositScreen.start(DepositScreen.java:45)
+2018-08-17 21:48:02 ERROR TransactionDaoJdbc:38 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-17 21:48:02 WARN  TransactionDaoJdbc:40 - failed to create new user
+2018-08-17 21:48:02 ERROR DepositScreen:47 - failed to create weapon
+2018-08-17 21:48:02 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:49:16 TRACE Launcher:11 - trace log
+2018-08-17 21:49:16 DEBUG Launcher:12 - debug log
+2018-08-17 21:49:16 INFO  Launcher:13 - info log
+2018-08-17 21:49:16 WARN  Launcher:14 - warn log
+2018-08-17 21:49:16 ERROR Launcher:15 - error log
+2018-08-17 21:49:16 FATAL Launcher:16 - fatal log
+2018-08-17 21:49:16 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:49:23 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 21:49:23 INFO  LoginScreen:37 - welcomeUser [id=1, username=null, password=null, firstName=kevin, lastName=pham, age=23, balance=0.0]
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:36 - ERROR: value too long for type character varying(20)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - com.revature.daos.TransactionDaoJdbc.createTransaction(TransactionDaoJdbc.java:27)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - com.revature.screens.DepositScreen.start(DepositScreen.java:45)
+2018-08-17 21:49:26 ERROR TransactionDaoJdbc:38 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-17 21:49:26 WARN  TransactionDaoJdbc:40 - failed to create new user
+2018-08-17 21:49:26 ERROR DepositScreen:47 - failed to create weapon
+2018-08-17 21:49:26 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:51:59 TRACE Launcher:11 - trace log
+2018-08-17 21:51:59 DEBUG Launcher:12 - debug log
+2018-08-17 21:51:59 INFO  Launcher:13 - info log
+2018-08-17 21:51:59 WARN  Launcher:14 - warn log
+2018-08-17 21:51:59 ERROR Launcher:15 - error log
+2018-08-17 21:51:59 FATAL Launcher:16 - fatal log
+2018-08-17 21:51:59 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:52:23 ERROR UserDaoJdbc:41 - ERROR: value too long for type character varying(10)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:37)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-17 21:52:23 ERROR UserDaoJdbc:43 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-17 21:52:23 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-17 21:52:23 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:55:25 TRACE Launcher:11 - trace log
+2018-08-17 21:55:25 DEBUG Launcher:12 - debug log
+2018-08-17 21:55:25 INFO  Launcher:13 - info log
+2018-08-17 21:55:25 WARN  Launcher:14 - warn log
+2018-08-17 21:55:25 ERROR Launcher:15 - error log
+2018-08-17 21:55:25 FATAL Launcher:16 - fatal log
+2018-08-17 21:55:25 DEBUG LoginScreen:18 - started login screen
+2018-08-17 21:55:34 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 21:55:34 INFO  LoginScreen:37 - welcomeUser [id=1, username=null, password=null, firstName=kevin, lastName=pham, age=23, balance=0.0]
+2018-08-17 21:55:40 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-17 21:55:40 TRACE TransactionDaoJdbc:32 - generated transaction id is1
+2018-08-17 21:55:40 INFO  DepositScreen:51 - created transactionTransactionHistory [id=1, date=08/17/2018 21:55 , action=deposited 20.0 energies, userId=1]
+2018-08-17 22:07:40 TRACE Launcher:11 - trace log
+2018-08-17 22:07:40 DEBUG Launcher:12 - debug log
+2018-08-17 22:07:40 INFO  Launcher:13 - info log
+2018-08-17 22:07:40 WARN  Launcher:14 - warn log
+2018-08-17 22:07:40 ERROR Launcher:15 - error log
+2018-08-17 22:07:40 FATAL Launcher:16 - fatal log
+2018-08-17 22:07:40 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:07:57 WARN  UserDaoJdbc:67 - failed to find user with provided credentials from the db
+2018-08-17 22:07:57 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:08:23 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-17 22:08:23 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:08:37 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 22:08:37 INFO  LoginScreen:37 - welcomeUser [id=4, username=null, password=null, firstName=Kevin, lastName=Pham, age=25, balance=0.0]
+2018-08-17 22:15:30 TRACE Launcher:11 - trace log
+2018-08-17 22:15:30 DEBUG Launcher:12 - debug log
+2018-08-17 22:15:30 INFO  Launcher:13 - info log
+2018-08-17 22:15:30 WARN  Launcher:14 - warn log
+2018-08-17 22:15:30 ERROR Launcher:15 - error log
+2018-08-17 22:15:30 FATAL Launcher:16 - fatal log
+2018-08-17 22:15:30 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:16:01 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-17 22:16:01 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:16:17 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 22:16:17 INFO  LoginScreen:37 - welcomeUser [id=5, username=null, password=null, firstName=alex, lastName=piper, age=16, balance=0.0]
+2018-08-17 22:36:21 TRACE Launcher:11 - trace log
+2018-08-17 22:36:21 DEBUG Launcher:12 - debug log
+2018-08-17 22:36:21 INFO  Launcher:13 - info log
+2018-08-17 22:36:21 WARN  Launcher:14 - warn log
+2018-08-17 22:36:21 ERROR Launcher:15 - error log
+2018-08-17 22:36:21 FATAL Launcher:16 - fatal log
+2018-08-17 22:36:21 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:36:39 ERROR UserDaoJdbc:41 - ERROR: duplicate key value violates unique constraint "user_account_username_key"
+  Detail: Key (username)=(kpthanh01) already exists.
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:37)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:29)
+2018-08-17 22:36:39 ERROR UserDaoJdbc:43 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-17 22:36:39 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-17 22:36:39 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:51:59 TRACE Launcher:11 - trace log
+2018-08-17 22:51:59 DEBUG Launcher:12 - debug log
+2018-08-17 22:51:59 INFO  Launcher:13 - info log
+2018-08-17 22:51:59 WARN  Launcher:14 - warn log
+2018-08-17 22:51:59 ERROR Launcher:15 - error log
+2018-08-17 22:51:59 FATAL Launcher:16 - fatal log
+2018-08-17 22:51:59 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:52:07 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:52:08 DEBUG LoginScreen:18 - started login screen
+2018-08-17 22:52:20 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 22:52:20 INFO  LoginScreen:37 - welcomeUser [id=4, username=null, password=null, firstName=Kevin, lastName=Pham, age=25, balance=0.0]
+2018-08-17 22:56:22 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-17 22:56:22 TRACE TransactionDaoJdbc:32 - generated transaction id is2
+2018-08-17 22:56:22 INFO  DepositScreen:54 - created transactionTransactionHistory [id=2, date=08/17/2018 22:56 , action=deposited 20.0 energies, userId=4]
+2018-08-17 23:01:27 TRACE Launcher:11 - trace log
+2018-08-17 23:01:27 DEBUG Launcher:12 - debug log
+2018-08-17 23:01:27 INFO  Launcher:13 - info log
+2018-08-17 23:01:27 WARN  Launcher:14 - warn log
+2018-08-17 23:01:27 ERROR Launcher:15 - error log
+2018-08-17 23:01:27 FATAL Launcher:16 - fatal log
+2018-08-17 23:01:27 DEBUG LoginScreen:18 - started login screen
+2018-08-17 23:02:09 TRACE Launcher:11 - trace log
+2018-08-17 23:02:09 DEBUG Launcher:12 - debug log
+2018-08-17 23:02:09 INFO  Launcher:13 - info log
+2018-08-17 23:02:09 WARN  Launcher:14 - warn log
+2018-08-17 23:02:09 ERROR Launcher:15 - error log
+2018-08-17 23:02:09 FATAL Launcher:16 - fatal log
+2018-08-17 23:02:09 DEBUG LoginScreen:18 - started login screen
+2018-08-17 23:02:18 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 23:02:18 INFO  LoginScreen:37 - welcomeUser [id=4, username=null, password=null, firstName=Kevin, lastName=Pham, age=25, balance=0.0]
+2018-08-17 23:02:46 TRACE Launcher:11 - trace log
+2018-08-17 23:02:46 DEBUG Launcher:12 - debug log
+2018-08-17 23:02:46 INFO  Launcher:13 - info log
+2018-08-17 23:02:46 WARN  Launcher:14 - warn log
+2018-08-17 23:02:46 ERROR Launcher:15 - error log
+2018-08-17 23:02:46 FATAL Launcher:16 - fatal log
+2018-08-17 23:02:46 DEBUG LoginScreen:18 - started login screen
+2018-08-17 23:02:54 INFO  LoginScreen:36 - user succefully logged in
+2018-08-17 23:02:54 INFO  LoginScreen:37 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=0.0]
+2018-08-17 23:03:39 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 00:54:11 TRACE Launcher:11 - trace log
+2018-08-18 00:54:11 DEBUG Launcher:12 - debug log
+2018-08-18 00:54:11 INFO  Launcher:13 - info log
+2018-08-18 00:54:11 WARN  Launcher:14 - warn log
+2018-08-18 00:54:11 ERROR Launcher:15 - error log
+2018-08-18 00:54:11 FATAL Launcher:16 - fatal log
+2018-08-18 00:54:11 DEBUG LoginScreen:18 - started login screen
+2018-08-18 00:54:19 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 00:54:19 INFO  LoginScreen:37 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=20.0]
+2018-08-18 00:54:47 TRACE Launcher:11 - trace log
+2018-08-18 00:54:47 DEBUG Launcher:12 - debug log
+2018-08-18 00:54:47 INFO  Launcher:13 - info log
+2018-08-18 00:54:47 WARN  Launcher:14 - warn log
+2018-08-18 00:54:47 ERROR Launcher:15 - error log
+2018-08-18 00:54:47 FATAL Launcher:16 - fatal log
+2018-08-18 00:54:47 DEBUG LoginScreen:18 - started login screen
+2018-08-18 00:54:57 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 00:54:57 INFO  LoginScreen:37 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=20.0]
+2018-08-18 00:55:06 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 00:55:07 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 00:55:07 TRACE TransactionDaoJdbc:32 - generated transaction id is3
+2018-08-18 00:55:07 INFO  WithdrawScreen:54 - created transactionTransactionHistory [id=3, date=08/18/2018 00:55 , action=withdrawed 10.0 energies, userId=4]
+2018-08-18 00:56:50 TRACE Launcher:11 - trace log
+2018-08-18 00:56:50 DEBUG Launcher:12 - debug log
+2018-08-18 00:56:50 INFO  Launcher:13 - info log
+2018-08-18 00:56:50 WARN  Launcher:14 - warn log
+2018-08-18 00:56:50 ERROR Launcher:15 - error log
+2018-08-18 00:56:50 FATAL Launcher:16 - fatal log
+2018-08-18 00:56:50 DEBUG LoginScreen:18 - started login screen
+2018-08-18 00:56:59 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 00:56:59 INFO  LoginScreen:37 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=10.0]
+2018-08-18 00:57:21 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 00:57:39 TRACE Launcher:11 - trace log
+2018-08-18 00:57:39 DEBUG Launcher:12 - debug log
+2018-08-18 00:57:39 INFO  Launcher:13 - info log
+2018-08-18 00:57:39 WARN  Launcher:14 - warn log
+2018-08-18 00:57:39 ERROR Launcher:15 - error log
+2018-08-18 00:57:39 FATAL Launcher:16 - fatal log
+2018-08-18 00:57:39 DEBUG LoginScreen:18 - started login screen
+2018-08-18 00:57:58 TRACE Launcher:11 - trace log
+2018-08-18 00:57:58 DEBUG Launcher:12 - debug log
+2018-08-18 00:57:58 INFO  Launcher:13 - info log
+2018-08-18 00:57:58 WARN  Launcher:14 - warn log
+2018-08-18 00:57:58 ERROR Launcher:15 - error log
+2018-08-18 00:57:58 FATAL Launcher:16 - fatal log
+2018-08-18 00:57:58 DEBUG LoginScreen:18 - started login screen
+2018-08-18 00:58:07 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 00:58:07 INFO  LoginScreen:37 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=5.0]
+2018-08-18 00:58:14 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 00:58:15 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 00:58:15 TRACE TransactionDaoJdbc:32 - generated transaction id is4
+2018-08-18 00:58:15 INFO  DepositScreen:54 - created transactionTransactionHistory [id=4, date=08/18/2018 00:58 , action=deposited 10.0 energies, userId=4]
+2018-08-18 01:00:08 TRACE Launcher:11 - trace log
+2018-08-18 01:00:08 DEBUG Launcher:12 - debug log
+2018-08-18 01:00:08 INFO  Launcher:13 - info log
+2018-08-18 01:00:08 WARN  Launcher:14 - warn log
+2018-08-18 01:00:08 ERROR Launcher:15 - error log
+2018-08-18 01:00:08 FATAL Launcher:16 - fatal log
+2018-08-18 01:00:08 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:00:17 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:00:17 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=0.0]
+2018-08-18 01:00:30 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:00:31 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:00:31 TRACE TransactionDaoJdbc:32 - generated transaction id is5
+2018-08-18 01:00:31 INFO  DepositScreen:54 - created transactionTransactionHistory [id=5, date=08/18/2018 01:00 , action=deposited 50.0 energies, userId=5]
+2018-08-18 01:00:47 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:01:53 TRACE Launcher:11 - trace log
+2018-08-18 01:01:53 DEBUG Launcher:12 - debug log
+2018-08-18 01:01:53 INFO  Launcher:13 - info log
+2018-08-18 01:01:53 WARN  Launcher:14 - warn log
+2018-08-18 01:01:53 ERROR Launcher:15 - error log
+2018-08-18 01:01:53 FATAL Launcher:16 - fatal log
+2018-08-18 01:01:53 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:02:43 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:02:50 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:02:50 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=-10.0]
+2018-08-18 01:03:17 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:03:20 TRACE Launcher:11 - trace log
+2018-08-18 01:03:20 DEBUG Launcher:12 - debug log
+2018-08-18 01:03:20 INFO  Launcher:13 - info log
+2018-08-18 01:03:20 WARN  Launcher:14 - warn log
+2018-08-18 01:03:20 ERROR Launcher:15 - error log
+2018-08-18 01:03:20 FATAL Launcher:16 - fatal log
+2018-08-18 01:03:20 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:03:33 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:03:33 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=-15.0]
+2018-08-18 01:03:42 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:03:43 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:03:43 TRACE TransactionDaoJdbc:32 - generated transaction id is6
+2018-08-18 01:03:43 INFO  DepositScreen:54 - created transactionTransactionHistory [id=6, date=08/18/2018 01:03 , action=deposited 100.0 energies, userId=5]
+2018-08-18 01:04:24 TRACE Launcher:11 - trace log
+2018-08-18 01:04:24 DEBUG Launcher:12 - debug log
+2018-08-18 01:04:24 INFO  Launcher:13 - info log
+2018-08-18 01:04:24 WARN  Launcher:14 - warn log
+2018-08-18 01:04:24 ERROR Launcher:15 - error log
+2018-08-18 01:04:24 FATAL Launcher:16 - fatal log
+2018-08-18 01:04:24 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:04:38 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:04:38 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=85.0]
+2018-08-18 01:04:58 TRACE Launcher:11 - trace log
+2018-08-18 01:04:58 DEBUG Launcher:12 - debug log
+2018-08-18 01:04:58 INFO  Launcher:13 - info log
+2018-08-18 01:04:58 WARN  Launcher:14 - warn log
+2018-08-18 01:04:58 ERROR Launcher:15 - error log
+2018-08-18 01:04:58 FATAL Launcher:16 - fatal log
+2018-08-18 01:04:58 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:05:09 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:05:09 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=85.0]
+2018-08-18 01:08:59 TRACE Launcher:11 - trace log
+2018-08-18 01:08:59 DEBUG Launcher:12 - debug log
+2018-08-18 01:08:59 INFO  Launcher:13 - info log
+2018-08-18 01:08:59 WARN  Launcher:14 - warn log
+2018-08-18 01:08:59 ERROR Launcher:15 - error log
+2018-08-18 01:08:59 FATAL Launcher:16 - fatal log
+2018-08-18 01:08:59 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:09:07 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:09:07 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=85.0]
+2018-08-18 01:09:16 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:09:16 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:09:16 TRACE TransactionDaoJdbc:32 - generated transaction id is7
+2018-08-18 01:09:16 INFO  DepositScreen:55 - created transactionTransactionHistory [id=7, date=08/18/2018 01:09 , action=deposited 15.0 energies, userId=5]
+2018-08-18 01:13:27 TRACE Launcher:11 - trace log
+2018-08-18 01:13:27 DEBUG Launcher:12 - debug log
+2018-08-18 01:13:27 INFO  Launcher:13 - info log
+2018-08-18 01:13:27 WARN  Launcher:14 - warn log
+2018-08-18 01:13:27 ERROR Launcher:15 - error log
+2018-08-18 01:13:27 FATAL Launcher:16 - fatal log
+2018-08-18 01:13:27 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:13:35 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:13:35 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=100.0]
+2018-08-18 01:13:42 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:18:55 TRACE Launcher:11 - trace log
+2018-08-18 01:18:55 DEBUG Launcher:12 - debug log
+2018-08-18 01:18:55 INFO  Launcher:13 - info log
+2018-08-18 01:18:55 WARN  Launcher:14 - warn log
+2018-08-18 01:18:55 ERROR Launcher:15 - error log
+2018-08-18 01:18:55 FATAL Launcher:16 - fatal log
+2018-08-18 01:18:55 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:19:04 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:19:04 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=90.0]
+2018-08-18 01:19:44 TRACE Launcher:11 - trace log
+2018-08-18 01:19:44 DEBUG Launcher:12 - debug log
+2018-08-18 01:19:44 INFO  Launcher:13 - info log
+2018-08-18 01:19:44 WARN  Launcher:14 - warn log
+2018-08-18 01:19:44 ERROR Launcher:15 - error log
+2018-08-18 01:19:44 FATAL Launcher:16 - fatal log
+2018-08-18 01:19:44 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:19:48 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:20:25 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:20:25 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=90.0]
+2018-08-18 01:21:08 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:22:03 TRACE Launcher:11 - trace log
+2018-08-18 01:22:03 DEBUG Launcher:12 - debug log
+2018-08-18 01:22:03 INFO  Launcher:13 - info log
+2018-08-18 01:22:03 WARN  Launcher:14 - warn log
+2018-08-18 01:22:03 ERROR Launcher:15 - error log
+2018-08-18 01:22:03 FATAL Launcher:16 - fatal log
+2018-08-18 01:22:03 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:22:09 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:22:17 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:22:17 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=80.0]
+2018-08-18 01:22:22 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:26:29 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:30:25 TRACE Launcher:11 - trace log
+2018-08-18 01:30:25 DEBUG Launcher:12 - debug log
+2018-08-18 01:30:25 INFO  Launcher:13 - info log
+2018-08-18 01:30:25 WARN  Launcher:14 - warn log
+2018-08-18 01:30:25 ERROR Launcher:15 - error log
+2018-08-18 01:30:25 FATAL Launcher:16 - fatal log
+2018-08-18 01:30:25 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:30:33 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:30:33 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=70.0]
+2018-08-18 01:30:40 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:31:05 TRACE Launcher:11 - trace log
+2018-08-18 01:31:05 DEBUG Launcher:12 - debug log
+2018-08-18 01:31:05 INFO  Launcher:13 - info log
+2018-08-18 01:31:05 WARN  Launcher:14 - warn log
+2018-08-18 01:31:05 ERROR Launcher:15 - error log
+2018-08-18 01:31:05 FATAL Launcher:16 - fatal log
+2018-08-18 01:31:05 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:31:12 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:31:12 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=60.0]
+2018-08-18 01:31:21 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:32:11 TRACE Launcher:11 - trace log
+2018-08-18 01:32:11 DEBUG Launcher:12 - debug log
+2018-08-18 01:32:11 INFO  Launcher:13 - info log
+2018-08-18 01:32:11 WARN  Launcher:14 - warn log
+2018-08-18 01:32:11 ERROR Launcher:15 - error log
+2018-08-18 01:32:11 FATAL Launcher:16 - fatal log
+2018-08-18 01:32:11 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:32:22 TRACE Launcher:11 - trace log
+2018-08-18 01:32:22 DEBUG Launcher:12 - debug log
+2018-08-18 01:32:22 INFO  Launcher:13 - info log
+2018-08-18 01:32:22 WARN  Launcher:14 - warn log
+2018-08-18 01:32:22 ERROR Launcher:15 - error log
+2018-08-18 01:32:22 FATAL Launcher:16 - fatal log
+2018-08-18 01:32:22 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:32:47 TRACE Launcher:11 - trace log
+2018-08-18 01:32:47 DEBUG Launcher:12 - debug log
+2018-08-18 01:32:47 INFO  Launcher:13 - info log
+2018-08-18 01:32:47 WARN  Launcher:14 - warn log
+2018-08-18 01:32:47 ERROR Launcher:15 - error log
+2018-08-18 01:32:47 FATAL Launcher:16 - fatal log
+2018-08-18 01:32:47 DEBUG LoginScreen:18 - started login screen
+2018-08-18 01:32:54 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 01:32:54 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=50.0]
+2018-08-18 01:33:03 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:33:04 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:33:04 TRACE TransactionDaoJdbc:32 - generated transaction id is8
+2018-08-18 01:33:04 INFO  DepositScreen:56 - created transactionTransactionHistory [id=8, date=08/18/2018 01:33 , action=deposited 100.0 energies, userId=5]
+2018-08-18 01:33:13 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:33:13 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:33:13 TRACE TransactionDaoJdbc:32 - generated transaction id is9
+2018-08-18 01:33:14 INFO  WithdrawScreen:56 - created transactionTransactionHistory [id=9, date=08/18/2018 01:33 , action=withdrawed 50.0 energies, userId=5]
+2018-08-18 01:34:12 TRACE UserDaoJdbc:108 - 1 records updated
+2018-08-18 01:34:13 TRACE TransactionDaoJdbc:28 - 1 records created
+2018-08-18 01:34:13 TRACE TransactionDaoJdbc:32 - generated transaction id is10
+2018-08-18 01:34:13 INFO  DepositScreen:56 - created transactionTransactionHistory [id=10, date=08/18/2018 01:34 , action=deposited 20.0 energies, userId=5]
+2018-08-18 01:34:19 DEBUG LoginScreen:18 - started login screen

@@ -57,6 +57,7 @@ public class UserDaoJdbc implements UserDao {
 			
 			if(rs.next()) {
 				User u = new User();
+				u.setUsername(rs.getString("username"));
 				u.setAge(rs.getInt("age"));
 				u.setFirstName(rs.getString("firstname"));
 				u.setLastName(rs.getString("lastname"));
@@ -97,8 +98,21 @@ public class UserDaoJdbc implements UserDao {
 	}
 
 	@Override
-	public void updateUser(User u) {
-		// TODO Auto-generated method stub
+	public void updateUserBalance(double balance, String username) {
+		try (Connection conn = cu.getConnection()){
+			PreparedStatement ps = conn.prepareStatement(
+					"UPDATE user_account SET balance=? WHERE username=?");
+			ps.setDouble(1, balance);
+			ps.setString(2, username);
+			int recordsUpdated = ps.executeUpdate();
+			log.trace(recordsUpdated + " records updated");
+		} catch (SQLException e) {
+			log.error(e.getMessage());
+			for(StackTraceElement ste: e.getStackTrace()) {
+				log.error(ste);
+			}
+			log.warn("failed update user balance");
+		}
 
 	}
 

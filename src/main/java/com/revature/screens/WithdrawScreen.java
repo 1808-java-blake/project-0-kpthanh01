@@ -2,46 +2,67 @@ package com.revature.screens;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+
+import com.revature.beans.TransactionHistory;
 import com.revature.beans.User;
+import com.revature.daos.TransactionDao;
 import com.revature.daos.UserDao;
-import com.revature.daos.UserSerializer;
+import com.revature.util.AppState;
 
 public class WithdrawScreen implements Screen{
-	private Scanner scan = new Scanner(System.in);
-	private User currentUser;
+	private Logger log = Logger.getRootLogger();
+	private AppState state = AppState.state;
+	private User u = state.getCurrentUser();
 	private UserDao ud = UserDao.currentUserDao;
-	private User u = UserSerializer.getCurrentUser();
-	private static final DateTimeFormatter dateTime = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm");
-	LocalDateTime thisTime = LocalDateTime.now();
-	StringBuffer sb = new StringBuffer(dateTime.format(thisTime) + " ");
+	private TransactionDao td = TransactionDao.currentTransactionDao;
+	private Scanner scan = new Scanner(System.in);
 	
-	public WithdrawScreen(User currentUser) {
-		this.currentUser = currentUser;
-	}
+	private static final DateTimeFormatter dateTime = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm");
 
 	@Override
 	public Screen start() {
-//		System.out.println("How much energy would you like to withdraw? ");
-//		try {
-//			double amount = scan.nextDouble();
-//			u.withdrawBalance(amount);
-//			u.setTransactionHistory(amount + " energy has been taken out of your balance");
-//			ud.updateUser(u);
-//		} catch (InputMismatchException e) {
-//			System.out.println("Invalid Number");
-//			return new WithdrawScreen(currentUser);
-//		}
+		User u = state.getCurrentUser();
+		if(u == null) {
+			return new LoginScreen();
+		}
+		try {
+			TransactionHistory t = new TransactionHistory();
+			System.out.println(u.getBalance());
+			System.out.println("How much would you like to withdraw?");
+			double userBalance = u.getBalance();
+			double amount = scan.nextDouble();
+			userBalance = userBalance - amount;
+			
+			ud.updateUserBalance(userBalance, u.getUsername());
+			u.setBalance(userBalance);
+//			System.out.println(u.getBalance());
+			state.setCurrentUser(u);
+			
+			LocalDateTime thisTime = LocalDateTime.now();
+			String sb = new String(dateTime.format(thisTime) + " ");
+			
+			t.setAction("withdrawed " + amount + " energies");
+			t.setDate(sb);
+			t.setUserId(u.getId());
+			int transactionId = td.createTransaction(t);
+			if(transactionId == 0) {
+				log.error("failed to create weapon");
+				return new LoginScreen();
+			}
+			t.setId(transactionId);
+			log.info("created transaction" + t);
+			
+		} catch (NumberFormatException e) {
+			System.out.println("Invalid number");
+		} catch (NullPointerException e) {
+			System.out.println("h");
+			e.printStackTrace();
+		}
 		
-//		return new HomeScreen(currentUser);
-		return null;
+		return new HomeScreen();
 	}
 	
-	
-//	sb2.append("Deposit ");
-//	sb2.append(deposit);
-//	ReadAndWrite.writeToFront(sb2.toString());
-
 }
