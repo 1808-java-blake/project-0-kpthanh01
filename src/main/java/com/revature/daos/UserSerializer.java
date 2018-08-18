@@ -82,7 +82,7 @@ public class UserSerializer implements UserDao {
 	}
 	
 	@Override
-	public User findUser(String username) {
+	public User findAdminByUsernameAndPassword(String username, String password) {
 		// verify that what was passed in is not null
 		if (username == null) {
 			return null;

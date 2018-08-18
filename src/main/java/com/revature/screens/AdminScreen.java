@@ -2,12 +2,19 @@ package com.revature.screens;
 
 import java.util.Scanner;
 
+import com.revature.beans.User;
+import com.revature.daos.UserDao;
+import com.revature.util.AppState;
+
 public class AdminScreen implements Screen{
 	private Scanner scan = new Scanner(System.in);
+	private UserDao ud = UserDao.currentUserDao;
+	private AppState state = AppState.state;
+	private User u = state.getCurrentUser();
 	
 	@Override
 	public Screen start() {
-		System.out.println("Welcome Administrator!");
+		System.out.println("Welcome Administrator" + u.getFirstName() + "!");
 		System.out.println("Please choose one of the options you would like to do today.");
 		System.out.println("1: Check list of accounts");
 		System.out.println("2: Check the Transaction History of a User");

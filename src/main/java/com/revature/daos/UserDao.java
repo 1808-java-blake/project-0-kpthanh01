@@ -7,7 +7,7 @@ public interface UserDao {
 	
 	void createUser(User u);
 	User findByUsernameAndPassword(String username, String password);
-	User findUser(String username);
+	User findAdminByUsernameAndPassword(String username, String password);
 	void updateUser(User u);
 	void deleteUser(User u);
 }

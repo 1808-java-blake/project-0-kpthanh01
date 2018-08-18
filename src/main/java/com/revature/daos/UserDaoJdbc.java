@@ -59,8 +59,9 @@ public class UserDaoJdbc implements UserDao {
 				User u = new User();
 				u.setAge(rs.getInt("age"));
 				u.setFirstName(rs.getString("firstname"));
-				u.setFirstName(rs.getString("lastname"));
+				u.setLastName(rs.getString("lastname"));
 				u.setId(rs.getInt("user_id"));
+				u.setBalance(rs.getDouble("balance"));
 				return u;
 			} else {
 				log.warn("failed to find user with provided credentials from the db");
@@ -74,8 +75,24 @@ public class UserDaoJdbc implements UserDao {
 	}
 
 	@Override
-	public User findUser(String username) {
-		// TODO Auto-generated method stub
+	public User findAdminByUsernameAndPassword(String username, String password) {
+		try(Connection conn = cu.getConnection()){
+			PreparedStatement ps = conn.prepareStatement(
+					"SELECT * FROM admin_account WHERE username = ? AND password = ?");
+			ps.setString(1, username);
+			ps.setString(2, password);
+			ResultSet rs = ps.executeQuery();
+			
+			if(rs.next()) {
+				User u = new User();
+				u.setFirstName(rs.getString("firstname"));
+				u.setLastName(rs.getString("lastname"));
+				u.setId(rs.getInt("admin_id"));
+				return u;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 

@@ -17,11 +17,14 @@ public class LoginScreen implements Screen {
 	public Screen start() {
 		log.debug("started login screen");
 		System.out.println("Hello Welcome to the Energy Bank where you can store your Potential Energies \n");
-		System.out.println("If you have an account type 'Login'. \nOtherwise, type 'Register' to create a new account.");
+		System.out.println("If you have an account type 'Login'."
+				+ "\nIf you are an administrator type 'Admin' "
+				+ "\nOtherwise, type 'Register' to create a new account.");
 		String userInput = scan.nextLine();
 		
 		switch (userInput.toLowerCase()) {
 		case "login":
+			System.out.println("signing in as user");
 			System.out.println("Enter Username");
 			String username = scan.nextLine();
 			System.out.println("Enter Password: ");
@@ -34,8 +37,26 @@ public class LoginScreen implements Screen {
 				log.info("welcome" + currentUser);
 				return new HomeScreen();
 			}
+			
+			System.out.println("unable to login");
+			return this;
+		case "admin":
+			System.out.println("signing in as admin");
+			System.out.println("Enter Username");
+			String adminUsername = scan.nextLine();
+			System.out.println("Enter Password: ");
+			String adminPassword = scan.nextLine();
+			
+			User adminUser = ud.findAdminByUsernameAndPassword(adminUsername, adminPassword);
+			if (adminUser != null) {
+				state.setCurrentUser(adminUser);
+				log.info("user succefully logged in");
+				log.info("welcome" + adminUser);
+				return new AdminScreen();
+			}
 
 			System.out.println("unable to login");
+			return this;
 		case "register":
 			return new RegisterUserScreen();
 		default:
