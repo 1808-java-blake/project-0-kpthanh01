@@ -30,7 +30,7 @@ public class WithdrawScreen implements Screen{
 		}
 		try {
 			TransactionHistory t = new TransactionHistory();
-			System.out.println(u.getBalance());
+//			System.out.println(u.getBalance());
 			System.out.println("How much would you like to withdraw?");
 			double userBalance = u.getBalance();
 			double amount = scan.nextDouble();

@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 
@@ -113,13 +115,34 @@ public class UserDaoJdbc implements UserDao {
 			}
 			log.warn("failed update user balance");
 		}
-
 	}
 
 	@Override
 	public void deleteUser(User u) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public List<User> findAllUserAccounts() {
+		try (Connection conn = cu.getConnection()){
+			List<User> users = new ArrayList<>();
+			PreparedStatement ps = conn.prepareStatement(
+					"SELECT user_id, username, firstname, lastname FROM user_account");
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()) {
+				User u = new User();
+				u.setId(rs.getInt("user_id"));
+				u.setUsername(rs.getString("username"));
+				u.setFirstName(rs.getString("firstname"));
+				u.setLastName(rs.getString("lastname"));
+				users.add(u);
+			}	
+			return users;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 }

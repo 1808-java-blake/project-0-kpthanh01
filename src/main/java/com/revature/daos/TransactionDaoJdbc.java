@@ -4,11 +4,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.revature.beans.TransactionHistory;
+import com.revature.beans.User;
 import com.revature.util.ConnectionUtil;
 
 public class TransactionDaoJdbc implements TransactionDao {
@@ -44,7 +46,24 @@ public class TransactionDaoJdbc implements TransactionDao {
 
 	@Override
 	public List<TransactionHistory> findByUserId(int id) {
-		// TODO Auto-generated method stub
+		try (Connection conn = cu.getConnection()){
+			List<TransactionHistory> transactions = new ArrayList<>();
+			PreparedStatement ps = conn.prepareStatement(
+					"SELECT * FROM transaction_history WHERE user_id=?");
+			ps.setInt(1, id);
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()) {
+				TransactionHistory list = new TransactionHistory();
+				list.setId(rs.getInt("transaction_id"));
+				list.setAction(rs.getString("user_action"));
+				list.setDate(rs.getString("action_date"));
+				list.setUserId(rs.getInt("user_id"));
+				transactions.add(list);
+			}	
+			return transactions;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 

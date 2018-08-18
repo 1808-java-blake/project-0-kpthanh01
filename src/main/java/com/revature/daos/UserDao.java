@@ -1,5 +1,7 @@
 package com.revature.daos;
 
+import java.util.List;
+
 import com.revature.beans.User;
 
 public interface UserDao {
@@ -10,4 +12,6 @@ public interface UserDao {
 	User findAdminByUsernameAndPassword(String username, String password);
 	void updateUserBalance(double balance, String username);
 	void deleteUser(User u);
+	
+	List<User> findAllUserAccounts();
 }

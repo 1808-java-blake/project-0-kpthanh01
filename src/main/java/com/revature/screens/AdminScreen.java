@@ -1,5 +1,6 @@
 package com.revature.screens;
 
+import java.util.List;
 import java.util.Scanner;
 
 import com.revature.beans.User;
@@ -14,7 +15,7 @@ public class AdminScreen implements Screen{
 	
 	@Override
 	public Screen start() {
-		System.out.println("Welcome Administrator" + u.getFirstName() + "!");
+		System.out.println("Welcome Administrator " + u.getFirstName() + "!");
 		System.out.println("Please choose one of the options you would like to do today.");
 		System.out.println("1: Check list of accounts");
 		System.out.println("2: Check the Transaction History of a User");
@@ -23,7 +24,11 @@ public class AdminScreen implements Screen{
 		
 		switch(selectOption) {
 		case "1":
-			return new AdminViewAccountScreen();
+			List<User> users = ud.findAllUserAccounts();
+			users.stream().forEach((each) -> {
+				System.out.println(each);
+			});
+			break;
 		case "2":
 			return new AdminViewTransactionScreen();
 		case "3":

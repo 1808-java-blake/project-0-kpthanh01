@@ -24,7 +24,7 @@ public class LoginScreen implements Screen {
 		
 		switch (userInput.toLowerCase()) {
 		case "login":
-			System.out.println("signing in as user");
+			System.out.println("Signing in as a user");
 			System.out.println("Enter Username");
 			String username = scan.nextLine();
 			System.out.println("Enter Password: ");
@@ -40,8 +40,9 @@ public class LoginScreen implements Screen {
 			
 			System.out.println("unable to login");
 			return this;
+			
 		case "admin":
-			System.out.println("signing in as admin");
+			System.out.println("Signing in as Administrator");
 			System.out.println("Enter Username");
 			String adminUsername = scan.nextLine();
 			System.out.println("Enter Password: ");
@@ -55,8 +56,9 @@ public class LoginScreen implements Screen {
 				return new AdminScreen();
 			}
 
-			System.out.println("unable to login");
+			System.out.println("Unable to login");
 			return this;
+			
 		case "register":
 			return new RegisterUserScreen();
 		default:
@@ -65,5 +67,4 @@ public class LoginScreen implements Screen {
 		
 		return this;
 	}
-
 }
