@@ -24,21 +24,22 @@ public class WithdrawScreen implements Screen{
 
 	@Override
 	public Screen start() {
-		User u = state.getCurrentUser();
 		if(u == null) {
 			return new LoginScreen();
 		}
 		try {
 			TransactionHistory t = new TransactionHistory();
-//			System.out.println(u.getBalance());
 			System.out.println("How much would you like to withdraw?");
 			double userBalance = u.getBalance();
+			if(userBalance == 0) {
+				System.out.println("Cannot Withdraw! \nYou have a balance of 0");
+				return new HomeScreen();
+			}
 			double amount = scan.nextDouble();
 			userBalance = userBalance - amount;
 			
 			ud.updateUserBalance(userBalance, u.getUsername());
 			u.setBalance(userBalance);
-//			System.out.println(u.getBalance());
 			state.setCurrentUser(u);
 			
 			LocalDateTime thisTime = LocalDateTime.now();

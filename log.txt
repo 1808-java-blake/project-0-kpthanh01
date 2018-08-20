@@ -665,3 +665,339 @@
 2018-08-18 12:42:29 DEBUG LoginScreen:18 - started login screen
 2018-08-18 12:42:37 INFO  LoginScreen:36 - user succefully logged in
 2018-08-18 12:42:37 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=120.0]
+2018-08-18 17:38:23 TRACE Launcher:11 - trace log
+2018-08-18 17:38:23 DEBUG Launcher:12 - debug log
+2018-08-18 17:38:23 INFO  Launcher:13 - info log
+2018-08-18 17:38:23 WARN  Launcher:14 - warn log
+2018-08-18 17:38:23 ERROR Launcher:15 - error log
+2018-08-18 17:38:23 FATAL Launcher:16 - fatal log
+2018-08-18 17:38:23 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:38:32 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:38:32 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:40:26 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:41:09 TRACE Launcher:11 - trace log
+2018-08-18 17:41:09 DEBUG Launcher:12 - debug log
+2018-08-18 17:41:09 INFO  Launcher:13 - info log
+2018-08-18 17:41:09 WARN  Launcher:14 - warn log
+2018-08-18 17:41:09 ERROR Launcher:15 - error log
+2018-08-18 17:41:09 FATAL Launcher:16 - fatal log
+2018-08-18 17:41:09 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:41:16 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 17:41:16 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=120.0]
+2018-08-18 17:41:26 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:41:36 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:41:45 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:41:45 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:44:42 TRACE Launcher:11 - trace log
+2018-08-18 17:44:42 DEBUG Launcher:12 - debug log
+2018-08-18 17:44:42 INFO  Launcher:13 - info log
+2018-08-18 17:44:42 WARN  Launcher:14 - warn log
+2018-08-18 17:44:42 ERROR Launcher:15 - error log
+2018-08-18 17:44:42 FATAL Launcher:16 - fatal log
+2018-08-18 17:44:42 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:44:50 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:44:50 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:47:11 TRACE Launcher:11 - trace log
+2018-08-18 17:47:11 DEBUG Launcher:12 - debug log
+2018-08-18 17:47:11 INFO  Launcher:13 - info log
+2018-08-18 17:47:11 WARN  Launcher:14 - warn log
+2018-08-18 17:47:11 ERROR Launcher:15 - error log
+2018-08-18 17:47:11 FATAL Launcher:16 - fatal log
+2018-08-18 17:47:11 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:47:18 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:47:18 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:48:52 TRACE Launcher:11 - trace log
+2018-08-18 17:48:52 DEBUG Launcher:12 - debug log
+2018-08-18 17:48:52 INFO  Launcher:13 - info log
+2018-08-18 17:48:52 WARN  Launcher:14 - warn log
+2018-08-18 17:48:52 ERROR Launcher:15 - error log
+2018-08-18 17:48:52 FATAL Launcher:16 - fatal log
+2018-08-18 17:48:52 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:49:13 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:49:13 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:51:22 TRACE Launcher:11 - trace log
+2018-08-18 17:51:22 DEBUG Launcher:12 - debug log
+2018-08-18 17:51:22 INFO  Launcher:13 - info log
+2018-08-18 17:51:22 WARN  Launcher:14 - warn log
+2018-08-18 17:51:22 ERROR Launcher:15 - error log
+2018-08-18 17:51:22 FATAL Launcher:16 - fatal log
+2018-08-18 17:51:22 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:51:30 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:51:30 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:53:26 TRACE Launcher:11 - trace log
+2018-08-18 17:53:26 DEBUG Launcher:12 - debug log
+2018-08-18 17:53:26 INFO  Launcher:13 - info log
+2018-08-18 17:53:26 WARN  Launcher:14 - warn log
+2018-08-18 17:53:26 ERROR Launcher:15 - error log
+2018-08-18 17:53:26 FATAL Launcher:16 - fatal log
+2018-08-18 17:53:26 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:53:35 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:53:35 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:57:29 TRACE Launcher:11 - trace log
+2018-08-18 17:57:29 DEBUG Launcher:12 - debug log
+2018-08-18 17:57:29 INFO  Launcher:13 - info log
+2018-08-18 17:57:29 WARN  Launcher:14 - warn log
+2018-08-18 17:57:29 ERROR Launcher:15 - error log
+2018-08-18 17:57:29 FATAL Launcher:16 - fatal log
+2018-08-18 17:57:29 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:57:39 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:57:48 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:57:48 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:59:29 TRACE Launcher:11 - trace log
+2018-08-18 17:59:29 DEBUG Launcher:12 - debug log
+2018-08-18 17:59:29 INFO  Launcher:13 - info log
+2018-08-18 17:59:29 WARN  Launcher:14 - warn log
+2018-08-18 17:59:29 ERROR Launcher:15 - error log
+2018-08-18 17:59:29 FATAL Launcher:16 - fatal log
+2018-08-18 17:59:29 DEBUG LoginScreen:18 - started login screen
+2018-08-18 17:59:38 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 17:59:38 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 17:59:48 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:00:06 TRACE Launcher:11 - trace log
+2018-08-18 18:00:06 DEBUG Launcher:12 - debug log
+2018-08-18 18:00:06 INFO  Launcher:13 - info log
+2018-08-18 18:00:06 WARN  Launcher:14 - warn log
+2018-08-18 18:00:06 ERROR Launcher:15 - error log
+2018-08-18 18:00:06 FATAL Launcher:16 - fatal log
+2018-08-18 18:00:06 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:00:14 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:00:14 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:02:18 TRACE Launcher:11 - trace log
+2018-08-18 18:02:18 DEBUG Launcher:12 - debug log
+2018-08-18 18:02:18 INFO  Launcher:13 - info log
+2018-08-18 18:02:18 WARN  Launcher:14 - warn log
+2018-08-18 18:02:18 ERROR Launcher:15 - error log
+2018-08-18 18:02:18 FATAL Launcher:16 - fatal log
+2018-08-18 18:02:18 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:02:28 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:02:28 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:03:04 TRACE Launcher:11 - trace log
+2018-08-18 18:03:04 DEBUG Launcher:12 - debug log
+2018-08-18 18:03:04 INFO  Launcher:13 - info log
+2018-08-18 18:03:04 WARN  Launcher:14 - warn log
+2018-08-18 18:03:04 ERROR Launcher:15 - error log
+2018-08-18 18:03:04 FATAL Launcher:16 - fatal log
+2018-08-18 18:03:04 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:03:21 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:03:21 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:04:13 TRACE Launcher:11 - trace log
+2018-08-18 18:04:13 DEBUG Launcher:12 - debug log
+2018-08-18 18:04:13 INFO  Launcher:13 - info log
+2018-08-18 18:04:13 WARN  Launcher:14 - warn log
+2018-08-18 18:04:13 ERROR Launcher:15 - error log
+2018-08-18 18:04:13 FATAL Launcher:16 - fatal log
+2018-08-18 18:04:13 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:04:23 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:04:23 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:07:10 TRACE Launcher:11 - trace log
+2018-08-18 18:07:10 DEBUG Launcher:12 - debug log
+2018-08-18 18:07:10 INFO  Launcher:13 - info log
+2018-08-18 18:07:10 WARN  Launcher:14 - warn log
+2018-08-18 18:07:10 ERROR Launcher:15 - error log
+2018-08-18 18:07:10 FATAL Launcher:16 - fatal log
+2018-08-18 18:07:10 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:07:16 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:07:16 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:13:58 TRACE Launcher:11 - trace log
+2018-08-18 18:13:58 DEBUG Launcher:12 - debug log
+2018-08-18 18:13:58 INFO  Launcher:13 - info log
+2018-08-18 18:13:58 WARN  Launcher:14 - warn log
+2018-08-18 18:13:58 ERROR Launcher:15 - error log
+2018-08-18 18:13:58 FATAL Launcher:16 - fatal log
+2018-08-18 18:13:58 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:14:10 INFO  LoginScreen:54 - user succefully logged in
+2018-08-18 18:14:10 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-18 18:14:44 TRACE Launcher:11 - trace log
+2018-08-18 18:14:44 DEBUG Launcher:12 - debug log
+2018-08-18 18:14:44 INFO  Launcher:13 - info log
+2018-08-18 18:14:44 WARN  Launcher:14 - warn log
+2018-08-18 18:14:44 ERROR Launcher:15 - error log
+2018-08-18 18:14:44 FATAL Launcher:16 - fatal log
+2018-08-18 18:14:44 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:14:53 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 18:14:53 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=120.0]
+2018-08-18 18:15:58 TRACE Launcher:11 - trace log
+2018-08-18 18:15:58 DEBUG Launcher:12 - debug log
+2018-08-18 18:15:58 INFO  Launcher:13 - info log
+2018-08-18 18:15:58 WARN  Launcher:14 - warn log
+2018-08-18 18:15:58 ERROR Launcher:15 - error log
+2018-08-18 18:15:58 FATAL Launcher:16 - fatal log
+2018-08-18 18:15:58 DEBUG LoginScreen:18 - started login screen
+2018-08-18 18:16:05 INFO  LoginScreen:36 - user succefully logged in
+2018-08-18 18:16:05 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=120.0]
+2018-08-18 18:16:56 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-18 18:16:57 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-18 18:16:57 TRACE TransactionDaoJdbc:34 - generated transaction id is11
+2018-08-18 18:16:57 INFO  WithdrawScreen:56 - created transactionTransactionHistory [id=11, date=08/18/2018 18:16 , action=withdrawed 20.0 energies, userId=5]
+2018-08-20 10:13:31 TRACE Launcher:11 - trace log
+2018-08-20 10:13:31 DEBUG Launcher:12 - debug log
+2018-08-20 10:13:31 INFO  Launcher:13 - info log
+2018-08-20 10:13:31 WARN  Launcher:14 - warn log
+2018-08-20 10:13:31 ERROR Launcher:15 - error log
+2018-08-20 10:13:31 FATAL Launcher:16 - fatal log
+2018-08-20 10:13:31 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:13:38 TRACE Launcher:11 - trace log
+2018-08-20 10:13:38 DEBUG Launcher:12 - debug log
+2018-08-20 10:13:38 INFO  Launcher:13 - info log
+2018-08-20 10:13:38 WARN  Launcher:14 - warn log
+2018-08-20 10:13:38 ERROR Launcher:15 - error log
+2018-08-20 10:13:38 FATAL Launcher:16 - fatal log
+2018-08-20 10:13:38 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:13:45 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:13:57 INFO  LoginScreen:36 - user succefully logged in
+2018-08-20 10:13:57 INFO  LoginScreen:37 - welcomeUser [id=5, username=Alex, password=null, firstName=alex, lastName=piper, age=16, balance=100.0]
+2018-08-20 10:14:43 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-20 10:14:44 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-20 10:14:44 TRACE TransactionDaoJdbc:34 - generated transaction id is12
+2018-08-20 10:14:44 INFO  DepositScreen:56 - created transactionTransactionHistory [id=12, date=08/20/2018 10:14 , action=deposited 30.0 energies, userId=5]
+2018-08-20 10:15:02 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-20 10:15:03 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-20 10:15:03 TRACE TransactionDaoJdbc:34 - generated transaction id is13
+2018-08-20 10:15:03 INFO  WithdrawScreen:56 - created transactionTransactionHistory [id=13, date=08/20/2018 10:15 , action=withdrawed 25.0 energies, userId=5]
+2018-08-20 10:15:14 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:16:12 TRACE UserDaoJdbc:40 - 1 records created
+2018-08-20 10:16:12 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:16:29 INFO  LoginScreen:36 - user succefully logged in
+2018-08-20 10:16:29 INFO  LoginScreen:37 - welcomeUser [id=7, username=SaiBuBwe, password=null, firstName=Jeff, lastName=Alderan, age=50, balance=0.0]
+2018-08-20 10:16:43 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-20 10:16:43 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-20 10:16:43 TRACE TransactionDaoJdbc:34 - generated transaction id is14
+2018-08-20 10:16:43 INFO  DepositScreen:56 - created transactionTransactionHistory [id=14, date=08/20/2018 10:16 , action=deposited 100.0 energies, userId=7]
+2018-08-20 10:16:51 DEBUG LoginScreen:18 - started login screen
+2018-08-20 10:16:59 INFO  LoginScreen:54 - user succefully logged in
+2018-08-20 10:16:59 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-20 10:17:30 DEBUG LoginScreen:18 - started login screen
+2018-08-20 11:47:57 TRACE Launcher:11 - trace log
+2018-08-20 11:47:57 DEBUG Launcher:12 - debug log
+2018-08-20 11:47:57 INFO  Launcher:13 - info log
+2018-08-20 11:47:57 WARN  Launcher:14 - warn log
+2018-08-20 11:47:57 ERROR Launcher:15 - error log
+2018-08-20 11:47:57 FATAL Launcher:16 - fatal log
+2018-08-20 11:47:57 DEBUG LoginScreen:18 - started login screen
+2018-08-20 11:48:54 TRACE UserDaoJdbc:40 - 1 records created
+2018-08-20 11:48:54 DEBUG LoginScreen:18 - started login screen
+2018-08-20 11:49:03 INFO  LoginScreen:36 - user succefully logged in
+2018-08-20 11:49:03 INFO  LoginScreen:37 - welcomeUser [id=8, username=smash4, password=null, firstName=Waluigi, lastName=Nintendo, age=80, balance=0.0]
+2018-08-20 11:49:34 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-20 11:49:35 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-20 11:49:35 TRACE TransactionDaoJdbc:34 - generated transaction id is15
+2018-08-20 11:49:35 INFO  DepositScreen:56 - created transactionTransactionHistory [id=15, date=08/20/2018 11:49 , action=deposited 20.0 energies, userId=8]
+2018-08-20 11:49:41 TRACE UserDaoJdbc:110 - 1 records updated
+2018-08-20 11:49:41 TRACE TransactionDaoJdbc:30 - 1 records created
+2018-08-20 11:49:41 TRACE TransactionDaoJdbc:34 - generated transaction id is16
+2018-08-20 11:49:41 INFO  WithdrawScreen:60 - created transactionTransactionHistory [id=16, date=08/20/2018 11:49 , action=withdrawed 20.0 energies, userId=8]
+2018-08-20 13:19:11 TRACE Launcher:11 - trace log
+2018-08-20 13:19:11 DEBUG Launcher:12 - debug log
+2018-08-20 13:19:11 INFO  Launcher:13 - info log
+2018-08-20 13:19:11 WARN  Launcher:14 - warn log
+2018-08-20 13:19:11 ERROR Launcher:15 - error log
+2018-08-20 13:19:11 FATAL Launcher:16 - fatal log
+2018-08-20 13:19:11 DEBUG LoginScreen:18 - started login screen
+2018-08-20 13:24:03 TRACE Launcher:11 - trace log
+2018-08-20 13:24:03 DEBUG Launcher:12 - debug log
+2018-08-20 13:24:03 INFO  Launcher:13 - info log
+2018-08-20 13:24:03 WARN  Launcher:14 - warn log
+2018-08-20 13:24:03 ERROR Launcher:15 - error log
+2018-08-20 13:24:03 FATAL Launcher:16 - fatal log
+2018-08-20 13:24:03 DEBUG LoginScreen:18 - started login screen
+2018-08-20 13:24:13 DEBUG LoginScreen:18 - started login screen
+2018-08-20 13:24:21 DEBUG LoginScreen:18 - started login screen
+2018-08-20 13:24:29 INFO  LoginScreen:54 - user succefully logged in
+2018-08-20 13:24:29 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-20 13:24:43 TRACE Launcher:11 - trace log
+2018-08-20 13:24:43 DEBUG Launcher:12 - debug log
+2018-08-20 13:24:43 INFO  Launcher:13 - info log
+2018-08-20 13:24:43 WARN  Launcher:14 - warn log
+2018-08-20 13:24:43 ERROR Launcher:15 - error log
+2018-08-20 13:24:43 FATAL Launcher:16 - fatal log
+2018-08-20 13:24:43 DEBUG LoginScreen:18 - started login screen
+2018-08-20 13:25:25 INFO  LoginScreen:54 - user succefully logged in
+2018-08-20 13:25:25 INFO  LoginScreen:55 - welcomeUser [id=1, username=null, password=null, firstName=Kevin, lastName=Pham, age=0, balance=0.0]
+2018-08-20 13:31:48 TRACE Launcher:11 - trace log
+2018-08-20 13:31:48 DEBUG Launcher:12 - debug log
+2018-08-20 13:31:48 INFO  Launcher:13 - info log
+2018-08-20 13:31:48 WARN  Launcher:14 - warn log
+2018-08-20 13:31:48 ERROR Launcher:15 - error log
+2018-08-20 13:31:48 FATAL Launcher:16 - fatal log
+2018-08-20 13:31:48 DEBUG LoginScreen:21 - started login screen
+2018-08-20 13:31:59 INFO  LoginScreen:58 - user succefully logged in
+2018-08-20 13:31:59 INFO  LoginScreen:59 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 13:32:48 TRACE Launcher:11 - trace log
+2018-08-20 13:32:48 DEBUG Launcher:12 - debug log
+2018-08-20 13:32:48 INFO  Launcher:13 - info log
+2018-08-20 13:32:48 WARN  Launcher:14 - warn log
+2018-08-20 13:32:48 ERROR Launcher:15 - error log
+2018-08-20 13:32:48 FATAL Launcher:16 - fatal log
+2018-08-20 13:32:48 DEBUG LoginScreen:21 - started login screen
+2018-08-20 13:32:55 INFO  LoginScreen:58 - user succefully logged in
+2018-08-20 13:32:55 INFO  LoginScreen:59 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 13:56:49 TRACE Launcher:11 - trace log
+2018-08-20 13:56:49 DEBUG Launcher:12 - debug log
+2018-08-20 13:56:49 INFO  Launcher:13 - info log
+2018-08-20 13:56:49 WARN  Launcher:14 - warn log
+2018-08-20 13:56:49 ERROR Launcher:15 - error log
+2018-08-20 13:56:49 FATAL Launcher:16 - fatal log
+2018-08-20 13:56:49 DEBUG LoginScreen:21 - started login screen
+2018-08-20 13:56:59 INFO  LoginScreen:57 - user succefully logged in
+2018-08-20 13:56:59 INFO  LoginScreen:58 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 13:57:02 DEBUG LoginScreen:21 - started login screen
+2018-08-20 13:57:08 INFO  LoginScreen:57 - user succefully logged in
+2018-08-20 13:57:08 INFO  LoginScreen:58 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:85 - ERROR: duplicate key value violates unique constraint "admin_account_pkey"
+  Detail: Key (admin_id)=(1) already exists.
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - com.revature.daos.AdminDaoJdbc.createAdmin(AdminDaoJdbc.java:82)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - com.revature.screens.AdminCreateScreen.start(AdminCreateScreen.java:26)
+2018-08-20 13:57:47 ERROR AdminDaoJdbc:87 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 13:57:47 WARN  AdminDaoJdbc:89 - failed to create new user
+2018-08-20 13:59:54 TRACE Launcher:11 - trace log
+2018-08-20 13:59:54 DEBUG Launcher:12 - debug log
+2018-08-20 13:59:54 INFO  Launcher:13 - info log
+2018-08-20 13:59:54 WARN  Launcher:14 - warn log
+2018-08-20 13:59:54 ERROR Launcher:15 - error log
+2018-08-20 13:59:54 FATAL Launcher:16 - fatal log
+2018-08-20 13:59:54 DEBUG LoginScreen:21 - started login screen
+2018-08-20 14:00:05 TRACE Launcher:11 - trace log
+2018-08-20 14:00:05 DEBUG Launcher:12 - debug log
+2018-08-20 14:00:05 INFO  Launcher:13 - info log
+2018-08-20 14:00:05 WARN  Launcher:14 - warn log
+2018-08-20 14:00:05 ERROR Launcher:15 - error log
+2018-08-20 14:00:05 FATAL Launcher:16 - fatal log
+2018-08-20 14:00:05 DEBUG LoginScreen:21 - started login screen
+2018-08-20 14:00:14 INFO  LoginScreen:57 - user succefully logged in
+2018-08-20 14:00:14 INFO  LoginScreen:58 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 14:00:28 TRACE AdminDaoJdbc:83 - 1 records created
+2018-08-20 15:03:19 TRACE Launcher:11 - trace log
+2018-08-20 15:03:19 DEBUG Launcher:12 - debug log
+2018-08-20 15:03:19 INFO  Launcher:13 - info log
+2018-08-20 15:03:19 WARN  Launcher:14 - warn log
+2018-08-20 15:03:19 ERROR Launcher:15 - error log
+2018-08-20 15:03:19 FATAL Launcher:16 - fatal log
+2018-08-20 15:03:19 DEBUG LoginScreen:21 - started login screen
+2018-08-20 15:03:37 TRACE Launcher:11 - trace log
+2018-08-20 15:03:37 DEBUG Launcher:12 - debug log
+2018-08-20 15:03:37 INFO  Launcher:13 - info log
+2018-08-20 15:03:37 WARN  Launcher:14 - warn log
+2018-08-20 15:03:37 ERROR Launcher:15 - error log
+2018-08-20 15:03:37 FATAL Launcher:16 - fatal log
+2018-08-20 15:03:37 DEBUG LoginScreen:21 - started login screen
+2018-08-20 15:03:46 TRACE Launcher:11 - trace log
+2018-08-20 15:03:46 DEBUG Launcher:12 - debug log
+2018-08-20 15:03:46 INFO  Launcher:13 - info log
+2018-08-20 15:03:46 WARN  Launcher:14 - warn log
+2018-08-20 15:03:46 ERROR Launcher:15 - error log
+2018-08-20 15:03:46 FATAL Launcher:16 - fatal log
+2018-08-20 15:03:46 DEBUG LoginScreen:21 - started login screen
+2018-08-20 15:03:56 TRACE Launcher:11 - trace log
+2018-08-20 15:03:56 DEBUG Launcher:12 - debug log
+2018-08-20 15:03:56 INFO  Launcher:13 - info log
+2018-08-20 15:03:56 WARN  Launcher:14 - warn log
+2018-08-20 15:03:56 ERROR Launcher:15 - error log
+2018-08-20 15:03:56 FATAL Launcher:16 - fatal log
+2018-08-20 15:03:56 DEBUG LoginScreen:21 - started login screen

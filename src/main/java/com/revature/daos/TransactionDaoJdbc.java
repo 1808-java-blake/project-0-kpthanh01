@@ -10,7 +10,6 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.revature.beans.TransactionHistory;
-import com.revature.beans.User;
 import com.revature.util.ConnectionUtil;
 
 public class TransactionDaoJdbc implements TransactionDao {

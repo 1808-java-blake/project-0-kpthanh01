@@ -1,41 +1,29 @@
 package com.revature.screens;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.SynchronousQueue;
-
-import com.revature.beans.User;
-import com.revature.daos.UserDao;
+import com.revature.beans.TransactionHistory;
+import com.revature.daos.TransactionDao;
 
 public class AdminViewTransactionScreen implements Screen {
 	private Scanner scan = new Scanner(System.in);
-	private UserDao ud = UserDao.currentUserDao;
-	private User selectedUser;
-	private List<String> transactions = new ArrayList<>();
+	private TransactionDao td = TransactionDao.currentTransactionDao;
+	
 
 	@Override
 	public Screen start() {
-//		System.out.println("Enter the username of an account to see their transaction history \n");
-//		System.out.println("Username: ");
-//		String username = scan.nextLine();
-//		
-//		selectedUser = ud.findUser(username);
-//		if(selectedUser != null) {
-//			transactions = selectedUser.getTransactionHistory();
-//			if(transactions.size() == 0) {
-//				System.out.println(username + " has no transaction history");
-//			}
-//			for(String history : transactions) {
-//				System.out.println(history);
-//			}
-//		}
+		System.out.println("Please enter a user id");
+		int adminInput = scan.nextInt();
+		List<TransactionHistory> transactions = td.findByUserId(adminInput);
+		if(transactions.isEmpty()) {
+			System.out.println("This User ID contains no account");
+			return this;
+		}
+		transactions.stream().forEach((each) -> {
+			System.out.println("Date: " + each.getDate() + ", Action: "+ each.getAction());
+		});
 		
-		return null;
+		return new AdminScreen();
 	}
 
 }

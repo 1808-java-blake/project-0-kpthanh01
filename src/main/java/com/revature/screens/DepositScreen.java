@@ -24,13 +24,11 @@ public class DepositScreen implements Screen{
 	
 	@Override
 	public Screen start() {
-		User u = state.getCurrentUser();
 		if(u == null) {
 			return new LoginScreen();
 		}
 		try {
 			TransactionHistory t = new TransactionHistory();
-//			System.out.println(u.getBalance());
 			System.out.println("How much would you like to deposit?");
 			double userBalance = u.getBalance();
 			double amount = scan.nextDouble();
@@ -38,7 +36,6 @@ public class DepositScreen implements Screen{
 			
 			ud.updateUserBalance(userBalance, u.getUsername());
 			u.setBalance(userBalance);
-//			System.out.println(u.getBalance());
 			state.setCurrentUser(u);
 			
 			LocalDateTime thisTime = LocalDateTime.now();

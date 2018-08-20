@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.revature.beans.Admin;
 import com.revature.beans.User;
+import com.revature.daos.AdminDao;
 import com.revature.daos.UserDao;
 import com.revature.util.AppState;
 
@@ -12,6 +14,7 @@ public class LoginScreen implements Screen {
 	private AppState state = AppState.state;
 	private Scanner scan = new Scanner(System.in);
 	private UserDao ud = UserDao.currentUserDao;
+	private AdminDao ad = AdminDao.currentUserDao;
 	private Logger log = Logger.getRootLogger();
 
 	public Screen start() {
@@ -48,9 +51,9 @@ public class LoginScreen implements Screen {
 			System.out.println("Enter Password: ");
 			String adminPassword = scan.nextLine();
 			
-			User adminUser = ud.findAdminByUsernameAndPassword(adminUsername, adminPassword);
+			Admin adminUser = ad.findAdminByUsernameAndPassword(adminUsername, adminPassword);
 			if (adminUser != null) {
-				state.setCurrentUser(adminUser);
+				state.setAdminUser(adminUser);
 				log.info("user succefully logged in");
 				log.info("welcome" + adminUser);
 				return new AdminScreen();
