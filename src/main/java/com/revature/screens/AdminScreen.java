@@ -16,9 +16,9 @@ public class AdminScreen implements Screen{
 	
 	@Override
 	public Screen start() {
-		System.out.println("Welcome Administrator " + a.getFirstName() + "!");
+		System.out.println("\nWelcome Administrator " + a.getFirstName() + "!");
 		System.out.println("Please choose one of the options you would like to do today.");
-		System.out.println("1: Check list of accounts");
+		System.out.println("1: Check list of User Accounts");
 		System.out.println("2: Check the Transaction History of a User");
 		System.out.println("3: Create a new Administrator account");
 		System.out.println("4: Logout");

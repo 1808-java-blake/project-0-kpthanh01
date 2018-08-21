@@ -41,16 +41,18 @@ public class WithdrawScreen implements Screen{
 			ud.updateUserBalance(userBalance, u.getUsername());
 			u.setBalance(userBalance);
 			state.setCurrentUser(u);
+			System.out.println("Withdrawed: " + amount + " energies" 
+					+ "\nNew Balance: " + userBalance + " energies");
 			
 			LocalDateTime thisTime = LocalDateTime.now();
 			String sb = new String(dateTime.format(thisTime) + " ");
 			
-			t.setAction("withdrawed " + amount + " energies");
+			t.setAction("You have withdrawed " + amount + " energies");
 			t.setDate(sb);
 			t.setUserId(u.getId());
 			int transactionId = td.createTransaction(t);
 			if(transactionId == 0) {
-				log.error("failed to create weapon");
+				log.error("failed to create transactions");
 				return new LoginScreen();
 			}
 			t.setId(transactionId);

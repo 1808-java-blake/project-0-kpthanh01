@@ -53,7 +53,7 @@ public class AdminDaoJdbc implements AdminDao{
 		try (Connection conn = cu.getConnection()){
 			List<User> users = new ArrayList<>();
 			PreparedStatement ps = conn.prepareStatement(
-					"SELECT user_id, username, firstname, lastname FROM user_account");
+					"SELECT user_id, username, firstname, lastname FROM user_account ORDER BY user_id ASC");
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()) {
 				User u = new User();

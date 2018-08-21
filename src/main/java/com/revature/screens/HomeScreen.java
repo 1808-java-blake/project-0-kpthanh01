@@ -15,7 +15,7 @@ public class HomeScreen implements Screen{
 	private User u = state.getCurrentUser();
 	
 	public Screen start() {
-		System.out.println("Please choose the following options");
+		System.out.println("\nPlease choose the following options");
 		System.out.println("Enter 1 to View Balance");
 		System.out.println("Enter 2 to Deposit Energy");
 		System.out.println("Enter 3 to Withdraw Energy");
@@ -25,7 +25,9 @@ public class HomeScreen implements Screen{
 		
 		switch (input) {
 		case "1":
-			System.out.println("Your Potential Energy Balance is: " + u.getBalance() + "\n");
+			System.out.println("====================================" 
+					+ "\nYour Balance is: " + u.getBalance() + " Potential Energies"
+					+ "\n====================================");
 			break;
 		case "2":
 			return new DepositScreen();

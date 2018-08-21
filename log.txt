@@ -1001,3 +1001,111 @@
 2018-08-20 15:03:56 ERROR Launcher:15 - error log
 2018-08-20 15:03:56 FATAL Launcher:16 - fatal log
 2018-08-20 15:03:56 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:30:56 TRACE Launcher:11 - trace log
+2018-08-20 22:30:56 DEBUG Launcher:12 - debug log
+2018-08-20 22:30:56 INFO  Launcher:13 - info log
+2018-08-20 22:30:56 WARN  Launcher:14 - warn log
+2018-08-20 22:30:56 ERROR Launcher:15 - error log
+2018-08-20 22:30:56 FATAL Launcher:16 - fatal log
+2018-08-20 22:30:56 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:38:00 TRACE Launcher:11 - trace log
+2018-08-20 22:38:00 DEBUG Launcher:12 - debug log
+2018-08-20 22:38:00 INFO  Launcher:13 - info log
+2018-08-20 22:38:00 WARN  Launcher:14 - warn log
+2018-08-20 22:38:00 ERROR Launcher:15 - error log
+2018-08-20 22:38:00 FATAL Launcher:16 - fatal log
+2018-08-20 22:38:00 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:38:52 TRACE Launcher:11 - trace log
+2018-08-20 22:38:52 DEBUG Launcher:12 - debug log
+2018-08-20 22:38:52 INFO  Launcher:13 - info log
+2018-08-20 22:38:52 WARN  Launcher:14 - warn log
+2018-08-20 22:38:52 ERROR Launcher:15 - error log
+2018-08-20 22:38:52 FATAL Launcher:16 - fatal log
+2018-08-20 22:38:52 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:39:03 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 22:39:03 INFO  LoginScreen:40 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=15.0]
+2018-08-20 22:40:27 TRACE Launcher:11 - trace log
+2018-08-20 22:40:27 DEBUG Launcher:12 - debug log
+2018-08-20 22:40:27 INFO  Launcher:13 - info log
+2018-08-20 22:40:27 WARN  Launcher:14 - warn log
+2018-08-20 22:40:27 ERROR Launcher:15 - error log
+2018-08-20 22:40:27 FATAL Launcher:16 - fatal log
+2018-08-20 22:40:27 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:40:42 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 22:40:42 INFO  LoginScreen:40 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=15.0]
+2018-08-20 22:41:22 TRACE Launcher:11 - trace log
+2018-08-20 22:41:22 DEBUG Launcher:12 - debug log
+2018-08-20 22:41:22 INFO  Launcher:13 - info log
+2018-08-20 22:41:22 WARN  Launcher:14 - warn log
+2018-08-20 22:41:22 ERROR Launcher:15 - error log
+2018-08-20 22:41:22 FATAL Launcher:16 - fatal log
+2018-08-20 22:41:22 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:41:41 TRACE Launcher:11 - trace log
+2018-08-20 22:41:41 DEBUG Launcher:12 - debug log
+2018-08-20 22:41:41 INFO  Launcher:13 - info log
+2018-08-20 22:41:41 WARN  Launcher:14 - warn log
+2018-08-20 22:41:41 ERROR Launcher:15 - error log
+2018-08-20 22:41:41 FATAL Launcher:16 - fatal log
+2018-08-20 22:41:41 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:41:50 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 22:41:50 INFO  LoginScreen:40 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=15.0]
+2018-08-20 22:42:18 TRACE UserDaoJdbc:85 - 1 records updated
+2018-08-20 22:42:19 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 22:42:19 TRACE TransactionDaoJdbc:33 - generated transaction id is17
+2018-08-20 22:42:19 INFO  DepositScreen:53 - created transactionTransactionHistory [id=17, date=08/20/2018 22:42 , action=You have deposited 30.0 energies, userId=4]
+2018-08-20 22:46:08 TRACE Launcher:11 - trace log
+2018-08-20 22:46:08 DEBUG Launcher:12 - debug log
+2018-08-20 22:46:08 INFO  Launcher:13 - info log
+2018-08-20 22:46:08 WARN  Launcher:14 - warn log
+2018-08-20 22:46:08 ERROR Launcher:15 - error log
+2018-08-20 22:46:08 FATAL Launcher:16 - fatal log
+2018-08-20 22:46:08 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:46:15 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 22:46:15 INFO  LoginScreen:40 - welcomeUser [id=4, username=kpthanh01, password=null, firstName=Kevin, lastName=Pham, age=25, balance=45.0]
+2018-08-20 22:46:25 TRACE UserDaoJdbc:85 - 1 records updated
+2018-08-20 22:46:26 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 22:46:26 TRACE TransactionDaoJdbc:33 - generated transaction id is18
+2018-08-20 22:46:26 INFO  DepositScreen:55 - created transactionTransactionHistory [id=18, date=08/20/2018 22:46 , action=You have deposited 5.0 energies, userId=4]
+2018-08-20 22:46:41 TRACE UserDaoJdbc:85 - 1 records updated
+2018-08-20 22:46:42 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 22:46:42 TRACE TransactionDaoJdbc:33 - generated transaction id is19
+2018-08-20 22:46:42 INFO  WithdrawScreen:59 - created transactionTransactionHistory [id=19, date=08/20/2018 22:46 , action=You have withdrawed 10.0 energies, userId=4]
+2018-08-20 22:47:22 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:47:37 INFO  LoginScreen:57 - user succefully logged in
+2018-08-20 22:47:37 INFO  LoginScreen:58 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 22:48:26 TRACE Launcher:11 - trace log
+2018-08-20 22:48:26 DEBUG Launcher:12 - debug log
+2018-08-20 22:48:26 INFO  Launcher:13 - info log
+2018-08-20 22:48:26 WARN  Launcher:14 - warn log
+2018-08-20 22:48:26 ERROR Launcher:15 - error log
+2018-08-20 22:48:26 FATAL Launcher:16 - fatal log
+2018-08-20 22:48:26 DEBUG LoginScreen:21 - started login screen
+2018-08-20 22:48:36 INFO  LoginScreen:57 - user succefully logged in
+2018-08-20 22:48:36 INFO  LoginScreen:58 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 22:49:00 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:00:31 TRACE Launcher:11 - trace log
+2018-08-20 23:00:31 DEBUG Launcher:12 - debug log
+2018-08-20 23:00:31 INFO  Launcher:13 - info log
+2018-08-20 23:00:31 WARN  Launcher:14 - warn log
+2018-08-20 23:00:31 ERROR Launcher:15 - error log
+2018-08-20 23:00:31 FATAL Launcher:16 - fatal log
+2018-08-20 23:00:31 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:02:42 TRACE Launcher:11 - trace log
+2018-08-20 23:02:42 DEBUG Launcher:12 - debug log
+2018-08-20 23:02:42 INFO  Launcher:13 - info log
+2018-08-20 23:02:42 WARN  Launcher:14 - warn log
+2018-08-20 23:02:42 ERROR Launcher:15 - error log
+2018-08-20 23:02:42 FATAL Launcher:16 - fatal log
+2018-08-20 23:02:42 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:02:50 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:03:02 INFO  LoginScreen:58 - user succefully logged in
+2018-08-20 23:03:02 INFO  LoginScreen:59 - welcomeAdmin [id=1, username=null, password=null, firstName=Kevin, lastName=Pham]
+2018-08-20 23:07:02 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:08:04 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 23:08:04 DEBUG LoginScreen:21 - started login screen
+2018-08-20 23:08:18 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 23:08:18 INFO  LoginScreen:41 - welcomeUser [id=9, username=doremon, password=null, firstName=Timon, lastName=Pumba, age=20, balance=0.0]
+2018-08-20 23:08:37 TRACE UserDaoJdbc:85 - 1 records updated
+2018-08-20 23:08:37 TRACE TransactionDaoJdbc:29 - 1 records created
+2018-08-20 23:08:37 TRACE TransactionDaoJdbc:33 - generated transaction id is20
+2018-08-20 23:08:37 INFO  DepositScreen:55 - created transactionTransactionHistory [id=20, date=08/20/2018 23:08 , action=You have deposited 300.0 energies, userId=9]
